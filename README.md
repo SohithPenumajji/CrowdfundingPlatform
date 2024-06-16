@@ -1,2 +1,2 @@
 # CrowdfundingPlatform
- transparent supply chain management system that tracks products from origin to consumers.
+ A platform where users can create and contribute to crowdfunding campaigns.
