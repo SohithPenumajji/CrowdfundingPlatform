@@ -67,7 +67,7 @@ contract crowdFund {
 
     function launch(uint256 _goal, uint32 _startTime, uint32 _endTime) external {
         require(_startTime >= block.timestamp, "start time is in the past");
-        require(_endTime >= _startTime, "end time is before start time");
+        require(_endTime >= _startTime, "end time is befor  e start time");
 
         count += 1;
 
