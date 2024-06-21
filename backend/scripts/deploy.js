@@ -1,11 +1,10 @@
 const { ethers } = require("hardhat");
-
 async function main() {
   const [deployer] = await ethers.getSigners();
   console.log("deployed to contract to this account",deployer.address);
 
 
-  const Token = await ethers.getContractFactory("IERC20");
+  const Token = await ethers.getContractFactory("MyToken");
   const token = await Token.deploy();
   await token.deployed();
 
