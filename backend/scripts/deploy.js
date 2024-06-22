@@ -20,9 +20,6 @@ async function main() {
 
   console.log("CrowdFund deployed to:",crowfund.address);
 
-
-
-
 } 
 
 main()
@@ -30,4 +27,4 @@ main()
   .catch((error) => {
     console.error(error);
     process.exit(1);
-});
+  });

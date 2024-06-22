@@ -3,13 +3,17 @@ require('dotenv').config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.24",
-  networks: {
-   hardhat: {},
-   sepolia: {
-    url: process.env.URL,
-    accounts: [process.env.PRIVATE_KEY]
-   } 
+  solidity: {
+    version: "0.8.20",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200
+      }
+    }
+  },
+  paths: {
+    sources: "./contracts", // Path to your Solidity contracts directory
+    artifacts: "./artifacts"
   }
-
 };
