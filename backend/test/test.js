@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
-describe("CrowdFund contract", function () {
+describe("Crowdfund", function () {
   let CrowdFund;
   let Token;
   let crowdFund;

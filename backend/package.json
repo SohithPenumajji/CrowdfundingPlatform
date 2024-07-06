@@ -22,6 +22,7 @@
     "chai": "^4.4.1",
     "hardhat": "^2.22.5",
     "hardhat-gas-reporter": "^1.0.10",
+    "mocha": "^10.6.0",
     "solidity-coverage": "^0.8.12",
     "typechain": "^8.3.2"
   },
